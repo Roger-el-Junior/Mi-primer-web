@@ -2,36 +2,63 @@
     margin:0px;
     padding:0px;
 }
+body{
+    background: #026b83;
+}
 header{
-    background: blue;
+    background:#1c394f;/*#1c394f y  #026b83*/
     position:relative;
 }
-.top{
-    position:absolute;
-}
 div{
-    width:40%;
-    height:200px;
+    width:35%;
+    height:40%;
     text-align:center;
-    border:solid ;
+    border:;
     display:inline-block;
-    margin-top:50px;
-    margin-left:5%;
+    margin-top:12%;
+    margin-left:10%;
+    background:white;
+}
+.es img{
+    width:50px;
+    height:50px;
 }
 h1{
     font-weight:100;
-    font-size:24px;
-    width:90%;
+    font-size:70px;
+    
 }
 nav{
     position: absolute;
     top:0px;
-    right:0px;
+    background:white;
+    width:100%;
 }
 .des{
-    width:40%;
-    height:130px;
-    border:solid;
+    width:55%;
+    height:84%;
     display:inline-block;
-    margin-top:50px;
+    position:absolute;
+    top:16%;
+}
+.descu{
+    font-size:;
+    font-weight:;
+    letter-spacing:;
+}
+.logo{
+    display:inline-block;
+    width:10%;
+    height:10%;
+    margin-right:;
+}
+.barras{
+    width:;
+    height:;
+    display:inline-block;
+    margin-right
+}
+
+.oculto{
+    display:none;
 }
