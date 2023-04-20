@@ -234,7 +234,7 @@ nav img{
 .ter-article{
     background:#ecf2f3;
     display: inline-block;
-    height:290px;
+    height:320px;
     width:100%;
 }
 
@@ -242,4 +242,32 @@ nav img{
     display: inline-block;
     width:200px;
     margin:20px 0px 0px 45px;
+}
+
+.for-article{
+    background:#026b83;
+    height:800px;
+    padding-top:10px;
+}
+
+.num{
+    width:230px;
+    height:180px;
+    background:white;
+    margin-left:30px;
+    margin-bottom:10px;
+    display:grid;
+    place-items:center;
+}
+
+.num p{
+    margin:10px;
+}
+
+.num a{
+    border-bottom:solid;
+}
+
+.num h3{
+    font-size:30px;
 }
