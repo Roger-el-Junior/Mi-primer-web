@@ -4,7 +4,7 @@
     padding:0px;
 }
 body{
-    background: #026b83;
+    background:;
     font-size:16px;
 }
 /*
@@ -200,7 +200,7 @@ nav img{
 
 .seg-article{
     width:100%;
-    height: 700px;
+    height: 1000px;
     background:#026b83;
 }
 
@@ -224,4 +224,22 @@ nav img{
     background:#026b83;
     border:solid white;
     color:white;
+}
+
+.seccion{
+    margin:30px;
+    width:250px;
+}
+
+.ter-article{
+    background:#ecf2f3;
+    display: inline-block;
+    height:290px;
+    width:100%;
+}
+
+.ter-article p{
+    display: inline-block;
+    width:200px;
+    margin:20px 0px 0px 45px;
 }
