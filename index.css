@@ -315,3 +315,37 @@ nav img{
 .ppdf h2{
 
 }
+
+.fot{
+    background:#026b83;
+    height:320px;
+    
+}
+
+.fot1{
+    width:80%;
+    height:50px;
+    display: inline-block;
+    margin: 15px 30px;
+    background: #026b83;
+    border-style:none none solid none;
+    border-color:white;
+    text-align: left;
+}
+
+.bot-fot{
+    width: 100px;
+    height: 50px;
+    margin: 15px 30px;
+    color:#026b83;
+}
+
+.fott{
+    background: black;
+    font-size:12px;
+    color: white;
+    height: 40px;
+    display: grid;
+    place-items:center;
+
+}
