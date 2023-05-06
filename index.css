@@ -14,7 +14,7 @@ header{
 }
 .es{
     width:80%;
-    height:70%;
+    height:;
     text-align:center;
     display:inline-block;
     margin-top:24px;
@@ -48,7 +48,6 @@ h1{
 }
 
 .des{
-    width:50px;
     display:inline-block;
     width:80%;
     margin-left:10%;
@@ -62,10 +61,10 @@ nav{
 }
 
 nav img{
-    width:20px;
+    width:6%;
 }
 .es img{
-    width:10%;
+    width:20%;
 }
 
 .oculto{
@@ -254,7 +253,7 @@ nav img{
 }
 
 
-@media screen and (min-width:600px) and (max-width: 1800px) {
+@media screen and (min-width:768px) {
     body{
         font-size:24px;
     }
@@ -275,9 +274,8 @@ nav img{
     
     .prim-article section{
         display: inline-block;
-        width:35%;
+        width:37%;
         height:310px;
-        border:solid 10px;
         margin:5%;
     }
     .seg-article{
@@ -342,4 +340,118 @@ nav img{
         margin-top:-0px;
         text-align: center;
     }
+}
+
+@media screen and (min-width:1023px){
+    
+    .des{
+        width:50%;
+        height:800px;
+        
+        position:absolute;
+        top: 6.5%;
+        right: 0px;
+    }
+    .es{
+        width:40%;
+        height:830px;
+        margin-top:25px;
+    }
+    
+    .seg-article{
+        height: 800px;
+    }
+    .prim-article div{
+        width:60%;
+        margin-top:5%;
+    }
+
+    .prim-article img{
+        position: relative;
+        bottom: 0px;
+        margin:20px;
+    }
+    
+    .seg-article section{
+        display: inline-block;
+        position: relative;
+    }
+    
+    .seg-article div{
+        display: inline-block;
+        width:50%;
+        height: 800px;
+        
+        position: absolute;
+        top:0px;
+    }
+    
+    .seg-article img{
+        width:50%;
+        height:1000px;
+    }
+    
+    .seg-article p{
+        margin:20% 10px;
+    }
+    
+    .ter-article{
+        height:700px;
+    }
+    .ter-article h2{
+        margin-top: 40%;
+    }
+    
+    .ter-article p{
+        display: inline-block;
+        height:250px;
+        width:65%;
+        margin-left:30%;
+    }
+    
+    .fndA{
+        position: relative;
+        text-align: center;
+    }
+    
+    .fndA .a1{
+        width:40%;
+        height:600px;
+        display: inline-block;
+        position:absolute;
+        top: 0px;
+        left:10%;
+    }
+    .fndA .a2{
+        display: inline-block;
+        width:40%;
+        height: 600px;
+        position: absolute;
+        top: 0px;
+        left:50%;
+    }
+    .fndA p{
+        margin-top:30%;
+    }
+    .fndA h2{
+        margin-top:45%;
+    }
+    footer{
+        position:relative;
+    }
+    .ppdf{
+        width:49%;
+        height:600px;
+        display: inline-block;
+        
+    }
+    .fot{
+        width:50%;
+        height:600px;
+        display: inline-block;
+        position:absolute;
+        top:0px;
+        padding:20px 0px;
+    }
+
 }
